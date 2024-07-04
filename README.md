@@ -12,10 +12,25 @@ This is a simple shopping app built using React Native and Expo. The app feature
 
 ## Screenshots
 
+### Product Screen
+This screen shows the list of products available in the shop.
+
 ![Product Screen](images/Screenshot_1.png)
+
+### Checkout Screen
+This screen displays the items added to the cart for checkout.
+
 ![Checkout Screen](images/Screenshot_2.png)
+
+### Empty Cart Screen
+This screen displays if there is no item in the cart.
 ![Empty Cart Screen](images/Screenshot_3.png)
+
+### Order Successful Screen
+This screen is displayed after successfully placing an order.
+
 ![Order Successful Screen](images/Screenshot_4.png)
+
 
 ## APK Download
 
