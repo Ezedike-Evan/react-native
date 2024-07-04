@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "HNG-mobile-stage-1",
+    "slug": "HNG-mobile-stage-1",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icons/shopping-cart.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/icons/shopping-cart.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/shopping-cart.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.phoenixwolf.HNGmobilestage1"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/icons/shopping-cart.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4bae367d-c43a-4002-85bb-01d4f55861fb"
+      }
+    }
+  }
+}
